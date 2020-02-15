@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="first_name_label">First name</string>
+    <string name="last_name_label">Last name</string>
+    <string name="age_label">Age</string>
+    <string name="gender_label">Gender</string>
+
+</resources>

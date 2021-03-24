@@ -1,4 +1,4 @@
-package fr.clerc.myapplication.kotlin
+package fr.clerc.tp2.kotlin
 
 object StudentContent {
     val ITEMS: ArrayList<Student> = ArrayList()

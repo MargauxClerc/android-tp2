@@ -9,7 +9,7 @@
         android:id="@+id/student_icon"
         android:background="@drawable/background_round"
         android:src="@drawable/ic_person"
-        android:tint="@android:color/white"
+        app:tint="@android:color/white"
         android:padding="@dimen/view_margin"
         android:layout_margin="@dimen/view_margin"
         app:layout_constraintTop_toTopOf="parent"

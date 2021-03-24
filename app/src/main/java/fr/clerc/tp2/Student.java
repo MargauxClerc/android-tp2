@@ -1,4 +1,4 @@
-package fr.clerc.myapplication;
+package fr.clerc.tp2;
 
 public class Student {
     int id;

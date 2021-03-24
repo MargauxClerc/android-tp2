@@ -1,4 +1,4 @@
-package fr.clerc.myapplication;
+package fr.clerc.tp2;
 
 import android.view.LayoutInflater;
 import android.view.View;

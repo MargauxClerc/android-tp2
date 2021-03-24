@@ -1,9 +1,9 @@
-package fr.clerc.myapplication.kotlin
+package fr.clerc.tp2.kotlin
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import fr.clerc.myapplication.R
-import fr.clerc.myapplication.kotlin.MainActivity.Companion.STUDENT_ID
+import fr.clerc.tp2.R
+import fr.clerc.tp2.kotlin.MainActivity.Companion.STUDENT_ID
 import kotlinx.android.synthetic.main.activity_student_detail.*
 
 class StudentDetailsActivity: AppCompatActivity() {

@@ -1,10 +1,10 @@
-package fr.clerc.myapplication;
+package fr.clerc.tp2;
 
 import android.os.Bundle;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import static fr.clerc.myapplication.MainActivity.STUDENT_ID;
+import static fr.clerc.tp2.MainActivity.STUDENT_ID;
 
 public class StudentDetailsActivity extends AppCompatActivity {
 

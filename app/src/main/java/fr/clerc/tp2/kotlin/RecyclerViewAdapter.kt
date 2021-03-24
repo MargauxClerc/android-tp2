@@ -1,20 +1,17 @@
-package fr.clerc.myapplication.kotlin
+package fr.clerc.tp2.kotlin
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import fr.clerc.myapplication.R
+import fr.clerc.tp2.R
 import kotlinx.android.synthetic.main.item_student.view.*
 
 class RecyclerViewAdapter(private val itemList: ArrayList<Student>, val listener: (Student) -> Unit): RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
 
-    override fun getItemCount(): Int {
-        return itemList.size
-    }
+    override fun getItemCount(): Int = itemList.size
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
